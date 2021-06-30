@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "v1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "latest",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.5",
+    "date-fns": "latest",
+    "dateformat": "^4.5.1",
+    "jwt-decode": "^2.2.0",
+    "material-ui-pickers": "^2.2.4",
+    "moment": "^2.22.0",
+    "rc-datepicker": "^5.0.16",
+    "react": "16.8.6",
+    "react-bootstrap": "^1.5.1",
+    "react-dom": "16.8.6",
+    "react-items-carousel": "^2.8.0",
+    "react-moment": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.4",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "validator": "^13.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000"
+}

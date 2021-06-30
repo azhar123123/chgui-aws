@@ -1,0 +1,229 @@
+@font-face {
+  font-family: myfont;
+  src: url('./fonts/PFDinDisplayPro-Black_35371.ttf');
+}
+a, body, div, h1, h2, h3, h4, h5, h6, input, li, p, select, span, ul{
+  font-family: myfont;
+}
+body {
+  margin: 0;
+  font-family: myfont;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+.logo{
+  width: 200px;
+}
+.mainnav .navbar{
+  background-color: rgb(46,56,71)!important;
+  opacity: 0.9;
+  position: fixed;
+  width: 100%;
+}
+.mainnav .navbar-nav{
+  padding-right: 50px;
+  font-size: 18px;
+}
+.mainnav .navbar-light .navbar-nav .nav-link {
+  margin-left: 40px;
+  color:white!important;
+}
+.landing {
+  position: absolute;
+  background: url('./img/first screen.png') no-repeat;
+  background-size:100% 100%;
+  top:0;
+  left:0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.empty{
+  height: 2000px!important;
+}
+img{
+  width: 100%;
+}
+.landing-inner {
+  padding-top: 10%;
+}
+.card-form {
+  opacity: 0.9;
+}
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+.form-control::placeholder {
+  color: #bbb !important;
+}
+hr{
+  border-top: 1px solid rgb(179,226,1);
+  width: 60%;
+  align-items: left;
+}
+.landing-letter{
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+.landing-letter .lead{
+  font-style: italic;
+  font-size: 28px;
+  padding-left: 23%;
+  padding-right: 23%;
+}
+.line-third-of-web-form{
+  border-top:5px solid black;
+} 
+.line-second-of-web-form{
+  border-top:5px solid rgb(179,226,1);
+}
+.line-one-of-web-form{
+  border-top:5px solid grey;
+}
+.button-group a{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 200px;
+  height: 70px;
+}
+.button-group{
+  vertical-align: middle;
+}
+.mybtn{
+  background-color: rgba(179,226,1,0.9);
+  border: none;
+  color:white;
+  font-size: 25px;
+  border-radius: 25px;
+}
+.mybtn:hover{
+  background-color: rgba(179,226,1,0.5);
+  border: none;
+  color:white;
+}
+
+@media only screen and (max-width: 1180px) {
+  .mainnav .navbar-nav{
+    padding-right: 10px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .mainnav .navbar-nav{
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  .ml-4, .mx-4 {
+    margin-left: 0rem!important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .mainnav .navbar-toggler{
+    position:absolute;
+    top:5px;
+    right:5px;
+  }
+  .mainnav .navbar{
+    padding-left: 0;
+  }
+  .mainnav .navbar-brand{
+    padding: 0;
+  }
+  .col-12{
+    padding-left: 0px;
+  }
+  hr{
+    width: 95%;
+  }
+  .mainnav .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
+    border: #fff;
+  }
+  .mainnav .navbar-light .navbar-toggler {
+    border-color: white;
+    padding: 2px 5px 2px 5px;
+  }
+  .mainnav .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 24px;
+  }
+  .landing-letter{
+    top:20%;
+  }
+  .landing-letter h1{
+    font-style: normal;
+    font-size: 32px;
+  }
+  .landing-letter .lead{
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  .landing{
+    /* background: url("./img/mobile/client-landing-mobile.jpg") no-repeat; */
+    height: 100%;
+  }
+  .button-group a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  .button-group a:first-child{
+    height: auto;
+    padding: 0.4em;
+  }
+}
+.motocycle{
+  width: 100%!important;
+  height: 200px;
+  background: url('./img/motocycle.png') no-repeat;
+  background-color: #fff;
+  background-position-x: 50%;
+}
+
+/*.badge-success {*/
+/*  color: #fff;*/
+/*  background-color: greenyellow;*/
+/*}*/
+
+.btn-outline-success {
+  color: #ad1;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ad1;
+}
+
+.ring-number{
+  position: absolute;
+  bottom: -137px;
+  width: 100%;
+  height: 176px;
+  background: url('./img/ring-number.png') no-repeat;
+  /* background: none; */
+  background-color: #fff;
+  background-position-x: 50%;
+}
+
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+
+.pt-3, .py-3 {
+  padding-top: 1rem!important;
+}
+
+.modalClass {  
+  text-align: center;  
+  margin-top: 100px;  
+}  
