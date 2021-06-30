@@ -261,31 +261,31 @@ class SelectService extends Component {
                     <p align="left" className="ml-5">Todos los servicios incluyen</p>
                     <div className="col-md-6 pl-5 mt-2 mb-2" align="left"> Revisión de Calidad <br/><span style={{fontFamily:'serif'}}>20mins</span></div>
                     <div className="col-md-6" style={{marginTop:'auto', marginBottom:'auto'}} >
-                      <span className="badge badge-success  "  >
+                      <span className="badge badge-success msj-free "  >
                         GRATIS
                       </span>
                     </div>
                     <div className="col-md-6 pl-5 mt-2 mb-2" align="left"> Revisión técnica <br/><span style={{fontFamily:'serif'}}>20mins</span></div>
                     <div className="col-md-6" style={{marginTop:'auto', marginBottom:'auto'}} >
-                      <span className="badge badge-success  " >
+                      <span className="badge badge-success msj-free  " >
                         GRATIS
                       </span>
                     </div>
                     <div className="col-md-6 pl-5 mt-2 mb-2" align="left"> Lavado en Seco <br/><span style={{fontFamily:'serif'}}>30mins</span></div>
                     <div className="col-md-6" style={{marginTop:'auto', marginBottom:'auto'}} >
-                      <span className="badge badge-success  " >
+                      <span className="badge badge-success msj-free " >
                         GRATIS
                       </span>
                     </div>
                     <div className="col-md-6 pl-5 mt-2 mb-2" align="left"> Desinfección <br/><span style={{fontFamily:'serif'}}>10mins</span></div>
                     <div className="col-md-6" style={{marginTop:'auto', marginBottom:'auto'}} >
-                      <span className="badge badge-success  " >
+                      <span className="badge badge-success msj-free " >
                         GRATIS
                       </span>
                     </div>
                     <div className="col-md-6 pl-5 mt-2 mb-2" align="left"> Garantía  <FontAwesomeIcon icon={faShieldAlt} style={{color:'blue'}}/></div>
                     <div className="col-md-6" style={{marginTop:'auto', marginBottom:'auto'}} >
-                      <span className="badge badge-success  " >
+                      <span className="badge badge-success msj-free " >
                         GRATIS
                       </span>
                     </div>
